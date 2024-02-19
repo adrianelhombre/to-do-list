@@ -32,6 +32,8 @@ input:not([type="radio"]):not([type="checkbox"]), button {
 body {
 	background: var(--light);
 	color: var(--dark);
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 section {
@@ -230,4 +232,10 @@ input:checked ~ .bubble::after {
 .todo-item.done .todo-content input {
 	text-decoration: line-through;
 	color: var(--grey);
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    max-width: auto;
+  }
 }
