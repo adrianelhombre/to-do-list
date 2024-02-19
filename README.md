@@ -1,7 +1,7 @@
-# Vue 3 + Vite
+# To Do List
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Sencilla web que utiliza el localstorage para poder tener organizada tu lista de tareas de forma muy sencilla.
 
-## Recommended IDE Setup
+Introduces el titulo, seleccionas si es relacionado con el trabajo o con lo personal y listo!
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Ademas puedes modificar tantas veces como quieras las tareas simplemente pulsando sobre ellas, tambien puedes marcarlas como completadas o borrarlas si ya no las necesitas.
